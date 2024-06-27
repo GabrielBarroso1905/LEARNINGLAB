@@ -8,12 +8,10 @@ function AppLayout() {
     <main className="app-layout">
       <div className="app-layout-container">
         <Sidebar />
-
         <div className="app-layout-content">
           <header>
             <Header />
           </header>
-
           <section>
             <Outlet />
           </section>
